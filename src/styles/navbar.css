@@ -10,7 +10,7 @@ body {
   --lightgray: #757575;
 }
 /*NAVBAR*/
-nav {
+.navbar {
   display: flex;
   position: fixed;
   top:0;
@@ -30,22 +30,22 @@ nav {
   margin-bottom: 10px;
   font-family:  "Poppins", sans-serif;
 }
-nav ul {
+.navbar ul {
   display: flex;
   justify-content: space-around;
 }
-nav ul li {
+.navbar ul li {
   list-style-type: none;
   margin-right: 2rem;
 }
-nav ul .list-item {
+.navbar ul .list-item {
   text-decoration: none;
   color: var(--darkgray);
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
 }
-nav ul .list-item:hover {
+.navbar ul .list-item:hover {
   color: black;
   transition: 0.5s;
 }

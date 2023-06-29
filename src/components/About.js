@@ -11,7 +11,7 @@ function About() {
       </header>
       <p className="sub-head">- My Introduction -</p>
       <section className="about-section">
-        <div className="container">
+        <div className="about-container">
             <div className="profile1">
                 <img src={profileImage} alt="profile1" />
             </div>
