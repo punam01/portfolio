@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/home.css";
-import Typed from "react-typed";
 import profileImage from "../images/profile.jpg";
 import { FaEnvelope, FaGithub, FaLinkedin, FaPaperPlane } from "react-icons/fa";
 function Home() {
