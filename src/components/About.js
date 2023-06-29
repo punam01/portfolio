@@ -37,7 +37,7 @@ function About() {
                     </div>
                 </div>
                 <div className="desc">As I strive to achieve my goal of becoming a <span>full-stack developer</span>, I have gained valuable experience through the <span>completion of multiple beginner-level projects</span> and have honed my programming skills over the years. Furthermore, my <span>notable aptitude for self-directed learning</span> enables me to quickly acquire new skills within tight timeframes.</div>
-                <br/>
+                <br/><br/>
                 <button>Download CV  <FaPortrait/></button>
                 <br/>
             </div>
