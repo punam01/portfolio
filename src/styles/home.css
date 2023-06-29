@@ -3,7 +3,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 .container {
   max-width: 700px;
@@ -12,6 +12,7 @@ section {
   height: 60vh;
   display: flex;
   padding: 10px;
+  margin-top: 3rem;
   align-items: center;
 }
 .social {
