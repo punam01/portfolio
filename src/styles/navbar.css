@@ -78,3 +78,23 @@ body {
     font-size: 1.5rem;
   }
 }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--darkgray); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:var(--white);
+  border: 1px solid var(--darkgray);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:var(--lightgray); 
+}

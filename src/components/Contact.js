@@ -17,7 +17,7 @@ function Contact() {
                 </div>
                 <div className="contact-details">
                     <span><small>LinkedIn</small></span>
-                    <span>punamk01</span>
+                    <span>punam-kumavat</span>
                 </div>
             </div>
             <div className="contact-item">
