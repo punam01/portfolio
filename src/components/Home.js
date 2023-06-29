@@ -8,9 +8,15 @@ function Home() {
       <section>
         <div className="container">
           <div className="social">
+            <a href="https://www.linkedin.com/in/punam-kumavat">
             <FaLinkedin className="social-item" />
+            </a>
+            <a href="https://github.com/punam01">
             <FaGithub className="social-item" />
+            </a>
+            <a href="https://mail.google.com/mail">
             <FaEnvelope className="social-item" />
+            </a>
           </div>
           <div className="intro">
             <h1>Punam Kumavat 👋</h1>

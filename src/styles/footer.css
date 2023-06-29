@@ -1,5 +1,5 @@
 footer {
-  background-color: var(--darkgray);
+    border-top: 1px solid var(--darkgray);
   height: 100%;
   width: 100%;
   display: flex;
@@ -7,13 +7,14 @@ footer {
   justify-content: center;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
-  font-weight: 300;
+
+  color: var(--darkgray);
+  font-weight: 500;
 }
 .f-left {
   width: 50%;
   padding: 2rem;
   height: 100%;
-  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,7 +25,6 @@ footer {
   padding: 2rem;
   height: 100%;
   display: flex;
-  color: white;
   align-items: center;
   justify-content: center;
 }
