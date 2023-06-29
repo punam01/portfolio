@@ -19,7 +19,7 @@ function Home() {
               <span>
                 <hr />
               </span>
-              <Typed
+              {/*<Typed
                 strings={[
                   "Post Graduate Student",
                   "Indian",
@@ -28,7 +28,7 @@ function Home() {
                 typeSpeed={40}
                 backSpeed={30}
                 loop
-              />
+              />*/}
             </p>
             <p className="desc">
               "As an undergraduate student from India, I am fueled by enthusiasm
