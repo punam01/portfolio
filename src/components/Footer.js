@@ -8,9 +8,10 @@ function Footer() {
       <footer>
         <div className="f-left">Copyright &#169; 2023. No rights reserved.</div>
         <div className="f-right">
-          <p>Mumbai,Maharashtra
-          {"   "}
-          <FaLocationArrow />
+          <p>
+            Mumbai,Maharashtra
+            {"   "}
+            <FaLocationArrow />
           </p>
         </div>
       </footer>
