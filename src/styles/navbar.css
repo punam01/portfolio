@@ -13,12 +13,12 @@ body {
 .navbar {
   display: flex;
   position: fixed;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   width: 100%;
   background-color: #ffffff;
   justify-content: space-around;
-  border-bottom: 1px solid rgba(0, 0,0,0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .brand {
   font-size: 1.5rem;
@@ -28,7 +28,7 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
-  font-family:  "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .navbar ul {
   display: flex;
@@ -85,16 +85,16 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--darkgray); 
+  background: var(--darkgray);
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background:var(--white);
+  background: var(--white);
   border: 1px solid var(--darkgray);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background:var(--lightgray); 
+  background: var(--lightgray);
 }
