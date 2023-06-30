@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <section>
-        <div className="home-container" id="home">
+        <div className="home-container">
           <div className="social">
             <a href="https://www.linkedin.com/in/punam-kumavat">
               <FaLinkedin className="social-item" />

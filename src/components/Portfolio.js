@@ -9,7 +9,7 @@ import HCCImage from "../images/3.jpg";
 function Portfolio() {
   return (
     <>
-      <header id="project">
+      <header>
         <h2>Projects</h2>
       </header>
       <p className="sub-head">- My recent work -</p>
