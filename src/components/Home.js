@@ -5,7 +5,7 @@ import { FaEnvelope, FaGithub, FaLinkedin, FaPaperPlane } from "react-icons/fa";
 function Home() {
   return (
     <>
-      <section>
+      <section className="home-section">
         <div className="home-container" id="home">
           <div className="social">
             <a href="https://www.linkedin.com/in/punam-kumavat">
