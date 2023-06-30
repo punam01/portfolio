@@ -20,6 +20,13 @@
   justify-content: center;
   cursor: pointer;
 }
+.active {
+  background-color: var(--darkgray);
+  padding: 10px;
+  min-width: 50px;
+  border-radius: 10px;
+  color: white;
+}
 .project-container {
   max-width: 700px;
   width: 100%;
