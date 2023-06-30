@@ -2,10 +2,10 @@ import React from "react";
 import "../styles/portfolio.css";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
-import BirdImage from "../images/birdie.JPG";
-import ChintanImage from "../images/chintanika.JPG";
-import WeatherImage from "../images/weather.JPG";
-import HCCImage from "../images/hcc.JPG";
+import BirdImage from "../images/4.jpg";
+import ChintanImage from "../images/1.jpg";
+import WeatherImage from "../images/2.jpg";
+import HCCImage from "../images/3.jpg";
 function Portfolio() {
   return (
     <>
