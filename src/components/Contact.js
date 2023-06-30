@@ -5,7 +5,7 @@ import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 function Contact() {
   return (
     <>
-      <header className="head" >
+      <header className="head" id="contact">
         <h2>Contact</h2>
       </header>
       <p className="sub-head">- Don't be shy! Hit me up! -</p>

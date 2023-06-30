@@ -33,20 +33,10 @@ function Navbar() {
               Contact
             </Link>
           </li>
-
-    
-          
-            
-    
-
-          
-          Expand Down
-    
-    
-  
         </ul>
       </nav>
     </>
   );
 }
+
 export default Navbar;
