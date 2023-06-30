@@ -44,6 +44,8 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
+
+  cursor: pointer;
 }
 .navbar ul .list-item:hover {
   color: black;

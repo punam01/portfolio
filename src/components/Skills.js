@@ -4,7 +4,7 @@ import "../styles/skills.css";
 function Skills() {
   return (
     <>
-      <header>
+      <header id="skill">
         <h2>Skills</h2>
       </header>
       <p className="sub-head">- An Overview of my skills -</p>

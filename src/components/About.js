@@ -6,7 +6,7 @@ import { FaLaptop, FaMedal, FaPortrait, FaSuitcase } from "react-icons/fa";
 function About() {
   return (
     <>
-      <header>
+      <header id="about">
         <h2>About Me</h2>
       </header>
       <p className="sub-head">- My Introduction -</p>
