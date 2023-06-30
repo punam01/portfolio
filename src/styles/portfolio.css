@@ -1,3 +1,10 @@
+.project-section{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+}
 .project-nav {
   display: flex;
   margin-top: 2rem;
@@ -6,6 +13,7 @@
   font-family: "Poppins", sans-serif;
   width: 100%;
   background-color: transparent;
+
   justify-content: space-around;
 }
 .project-nav ul {

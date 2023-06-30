@@ -15,7 +15,7 @@ function Portfolio() {
       <p className="sub-head">- My recent work -</p>
       <br />
       <br />
-      <section>
+      <section className="project-section">
         <div className="project-container">
           <div className="project-card">
             <div className="project-card-item">
