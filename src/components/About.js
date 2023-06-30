@@ -46,7 +46,6 @@ function About() {
               me to quickly acquire new skills within tight timeframes.
             </div>
             <br />
-            <br />
             <button>
               Download CV <FaPortrait />
             </button>

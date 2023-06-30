@@ -13,8 +13,6 @@ function Portfolio() {
         <h2>Projects</h2>
       </header>
       <p className="sub-head">- My recent work -</p>
-      <br />
-      <br />
       <section className="project-section">
         <div className="project-container">
           <div className="project-card">
