@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/home.css";
 import profileImage from "../images/profile.jpg";
 import { FaEnvelope, FaGithub, FaLinkedin, FaPaperPlane } from "react-icons/fa";
+import TypeWriter from "./TypeWriter";
 function Home() {
   return (
     <>
@@ -20,21 +21,18 @@ function Home() {
           </div>
           <div className="intro">
             <h1>Punam Kumavat 👋</h1>
-            <p className="typed">
+            <div className="typed">
               <span>
                 <hr />
               </span>
-              {/*<Typed
-                strings={[
-                  "Post Graduate Student",
-                  "Indian",
-                  "Front-End Web Developer",
-                ]}
-                typeSpeed={40}
-                backSpeed={30}
-                loop
-              />*/}
-            </p>
+              <TypeWriter
+                  messages={[
+                    "Post Graduate Student",
+                    "Indian",
+                    "Front-End Web Developer",
+                  ]}
+              />
+            </div>
             <p className="desc">
               "As an undergraduate student from India, I am fueled by enthusiasm
               to venture beyond familiar boundaries and embrace new

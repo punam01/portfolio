@@ -60,7 +60,7 @@
   font-weight: 400;
   font-size: 16px;
 }
-.intro p span hr {
+hr {
   width: 50px;
   margin-right: 5px;
 }
