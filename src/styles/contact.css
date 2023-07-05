@@ -1,5 +1,4 @@
 .head h2 {
-  margin-top: 15rem;
   display: flex;
   align-self: center;
   justify-content: center;
@@ -30,12 +29,10 @@
   justify-content: space-between;
 }
 .contact-section {
-  height: 20vh;
+  height: 100%;
   display: flex;
   align-items: center;
-  margin-top: 0px;
   justify-content: center;
-  margin-bottom: 5rem;
 }
 .contact-item {
   display: flex;
