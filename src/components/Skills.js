@@ -11,7 +11,7 @@ function Skills() {
       <section>
         <div className="skills-section">
           <div className="skills-container">
-            <div class="logos">
+            <div className="logos">
               <ul>
                 <li>
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="skill-icon"/>
