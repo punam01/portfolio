@@ -1,4 +1,4 @@
-.project-section{
+.project-section {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -12,23 +12,23 @@
   height: 100%;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5rem;  
+  margin-bottom: 5rem;
 }
-.project-container.active-tab{
+.project-container.active-tab {
   display: flex;
   width: 100%;
   height: 100%;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 5rem;  
+  margin-bottom: 5rem;
   transition: all 1s ease-in-out;
 }
-.link-icon{
+.link-icon {
   font-size: 15px;
-    color: var(--darkgray);
-  }
-.pul{
+  color: var(--darkgray);
+}
+.pul {
   display: flex;
   width: 100%;
   height: 100%;
@@ -38,7 +38,7 @@
   padding: 0;
   margin: 0;
 }
-li{
+li {
   list-style: none;
   margin: 0 15px 0 15px;
 }
@@ -51,7 +51,6 @@ li{
   border-radius: 5px;
   padding: 1rem;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
-
 }
 .project-card-item {
   width: 100%;
@@ -62,16 +61,16 @@ li{
   justify-content: flex-start;
 }
 .project-card:hover {
-    transform: translateY(-10px) ;
-    transition: all 0.1s ease-in-out;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
-  }
+  transform: translateY(-10px);
+  transition: all 0.1s ease-in-out;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
 .project-card-item img {
   width: 100%;
   height: 100%;
   border-radius: 15px;
   object-fit: cover;
-  border:0.5px solid #b2b2b2;
+  border: 0.5px solid #b2b2b2;
 }
 .project-card-title {
   margin-top: 10px;
@@ -82,18 +81,18 @@ li{
 }
 .project-card-link {
   font-size: 12px;
-  height:12px;
+  height: 12px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: var(--gray);
 }
-.tab-titles{
+.tab-titles {
   display: flex;
   margin: 0 0 40px 0;
 }
-.tab-links{
-  margin:0 20px 0 20px;
-  padding:0.5rem;
+.tab-links {
+  margin: 0 20px 0 20px;
+  padding: 0.5rem;
   transition: all 0.1s ease-in-out;
   cursor: pointer;
   height: 25px;
@@ -102,12 +101,12 @@ li{
   justify-content: center;
   align-items: center;
 }
-.current{
+.current {
   color: white;
   background-color: var(--darkgray);
   border-radius: 10px;
 }
-.tab-links:hover{
+.tab-links:hover {
   color: white;
   background-color: var(--darkgray);
   border-radius: 10px;
@@ -133,7 +132,7 @@ li{
     padding: 1rem;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
   }
-  
+
   .project-card-item {
     width: 100%;
     height: 80%;
@@ -143,20 +142,20 @@ li{
     align-items: center;
     justify-content: center;
   }
-  
-  .tab-titles{
+
+  .tab-titles {
     display: flex;
     margin: 0 0 10px 0;
   }
-  .tab-links{
-    margin:2px 20px 10px 20px;
+  .tab-links {
+    margin: 2px 20px 10px 20px;
   }
-  .pul{
+  .pul {
     flex-direction: column;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
   }
-  li{
+  li {
     margin: 0 0 10px 0;
     display: flex;
     flex-direction: column;

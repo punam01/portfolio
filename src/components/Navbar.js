@@ -7,14 +7,16 @@ function Navbar() {
     if (section) {
       window.scrollTo({
         top: section.offsetTop - 50,
-        behavior: "smooth"
+        behavior: "smooth",
       });
     }
   };
   return (
     <>
       <nav className="navbar">
-        <div className="brand" onClick={() => scrollToSection("home")}>Punam Kumavat</div>
+        <div className="brand" onClick={() => scrollToSection("home")}>
+          Punam Kumavat
+        </div>
         <ul>
           <li>
             <div className="list-item" onClick={() => scrollToSection("home")}>
@@ -22,7 +24,10 @@ function Navbar() {
             </div>
           </li>
           <li>
-            <div className="list-item" onClick={() => scrollToSection("skills")}>
+            <div
+              className="list-item"
+              onClick={() => scrollToSection("skills")}
+            >
               Skills
             </div>
           </li>
@@ -32,12 +37,18 @@ function Navbar() {
             </div>
           </li>
           <li>
-            <div className="list-item" onClick={() => scrollToSection("project")}>
+            <div
+              className="list-item"
+              onClick={() => scrollToSection("project")}
+            >
               Project
             </div>
           </li>
           <li>
-            <div className="list-item" onClick={() => scrollToSection("contact")}>
+            <div
+              className="list-item"
+              onClick={() => scrollToSection("contact")}
+            >
               Contact
             </div>
           </li>

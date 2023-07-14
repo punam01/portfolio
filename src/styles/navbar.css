@@ -57,7 +57,7 @@ body {
 /*NAVBAR END*/
 
 @media screen and (max-width: 768px) {
-  .navbar{
+  .navbar {
     z-index: 1000;
     background-color: #fafafa;
   }

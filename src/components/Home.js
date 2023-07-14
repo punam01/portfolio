@@ -26,11 +26,11 @@ function Home() {
                 <hr />
               </span>
               <TypeWriter
-                  messages={[
-                    "Post Graduate Student",
-                    "Indian",
-                    "Front-End Web Developer",
-                  ]}
+                messages={[
+                  "Post Graduate Student",
+                  "Indian",
+                  "Front-End Web Developer",
+                ]}
               />
             </div>
             <p className="desc">

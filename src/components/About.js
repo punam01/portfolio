@@ -1,21 +1,14 @@
-import React, { useEffect, useState } from "react";
 import "../styles/about.css";
 import pdf from "../PUNAM_KUMAVAT_Resume.pdf";
 import { FaLaptop, FaMedal, FaPortrait, FaSuitcase } from "react-icons/fa";
 
 function About() {
   const handleClick = () => {
-    window.open(pdf, '_blank');
+    window.open(pdf, "_blank");
   };
 
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
   return (
     <>
-      <div className={`fade-in-out ${isVisible ? 'show' : ''}`}>
       <header id="about">
         <h2>About Me</h2>
       </header>
@@ -54,13 +47,12 @@ function About() {
             </div>
             <br />
             <button onClick={handleClick}>
-              Download CV <FaPortrait className="social-item"/>
+              Download CV <FaPortrait className="social-item" />
             </button>
             <br />
           </div>
         </div>
       </section>
-      </div>
     </>
   );
 }
