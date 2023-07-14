@@ -30,16 +30,16 @@ function Portfolio() {
             All
           </p>
           <p
-            className={`tab-links ${activeTab === "web" ? "current" : ""}`}
-            onClick={() => openTab("web")}
-          >
-            Web
-          </p>
-          <p
             className={`tab-links ${activeTab === "python" ? "current" : ""}`}
             onClick={() => openTab("python")}
           >
             Python
+          </p>
+          <p
+            className={`tab-links ${activeTab === "web" ? "current" : ""}`}
+            onClick={() => openTab("web")}
+          >
+            Web
           </p>
           <p
             className={`tab-links ${activeTab === "unity" ? "current" : ""}`}

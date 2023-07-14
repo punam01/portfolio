@@ -1,10 +1,19 @@
 import "../styles/about.css";
 import pdf from "../PUNAM_KUMAVAT_Resume.pdf";
 import { FaLaptop, FaMedal, FaPortrait, FaSuitcase } from "react-icons/fa";
-
+import { SiGeeksforgeeks,SiLeetcode,SiCodechef } from "react-icons/si";
 function About() {
   const handleClick = () => {
     window.open(pdf, "_blank");
+  };
+  const handleGeeks = () => {
+    window.open("https://auth.geeksforgeeks.org/user/punamk_01/practice/", "_blank");
+  };
+  const handleLeetcode = () => {
+    window.open("https://leetcode.com/Punam_Kumavat/", "_blank");
+  };
+  const handleCodechef = () => {
+    window.open("https://www.codechef.com/users/punamkumavat01", "_blank");
   };
 
   return (
@@ -12,7 +21,7 @@ function About() {
       <header id="about">
         <h2>About Me</h2>
       </header>
-      <p className="sub-head">- My Introduction -</p>
+      <p className="sub-head">- Know thy Author -</p>
       <section className="about-section">
         <div className="about-container">
           <div className="about">
@@ -49,7 +58,12 @@ function About() {
             <button onClick={handleClick}>
               Download CV <FaPortrait className="social-item" />
             </button>
-            <br />
+            <div className="socials">
+              <SiGeeksforgeeks className="social" onClick={handleGeeks}/>
+              <SiLeetcode className="social" onClick={handleLeetcode}/>
+              <SiCodechef className="social" onClick={handleCodechef}/>
+            </div>
+              
           </div>
         </div>
       </section>

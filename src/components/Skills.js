@@ -7,7 +7,7 @@ function Skills() {
       <header id="skills">
         <h2>Skills</h2>
       </header>
-      <p className="sub-head">- An Overview of my skills -</p>
+      <p className="sub-head">- An Overview -</p>
       <section>
         <div className="skills-section">
           <div className="skills-container">
