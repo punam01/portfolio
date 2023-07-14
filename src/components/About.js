@@ -5,7 +5,6 @@ import { FaLaptop, FaMedal, FaPortrait, FaSuitcase } from "react-icons/fa";
 
 function About() {
   const handleClick = () => {
-    //const pdfUrl = './public/PUNAM_KUMAVAT_Resume.pdf';
     window.open(pdf, '_blank');
   };
   return (

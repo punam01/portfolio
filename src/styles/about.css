@@ -76,6 +76,16 @@ header h2 {
   padding: 0.5px;
   margin-bottom: 1rem;
 }
+.about .about-cards .card-item:hover {
+  transform: translateY(-10px) ;
+  transition: all 0.1s ease-in-out;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+.about .about-cards .card-item:hover .icon {
+  scale: 2;
+  padding: 0.5rem;
+  transition: all 0.1s ease-in-out;
+}
 .about .about-cards .card-item span,
 .icon {
   color: var(--darkgray);
