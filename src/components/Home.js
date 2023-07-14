@@ -8,7 +8,7 @@ function Home() {
     <>
       <section className="home-section" id="home">
         <div className="home-container" >
-          <div className="social">
+          <div className="social-l">
             <a href="https://www.linkedin.com/in/punam-kumavat">
               <FaLinkedin className="social-item" />
             </a>
