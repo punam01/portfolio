@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -10,15 +10,13 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Navbar></Navbar>
-        <Home></Home>
-        <About></About>
-        {/*<Qualification></Qualification>*/}
-        <Portfolio></Portfolio>
-        <Contact></Contact>
-        <Footer></Footer>
-      </BrowserRouter>
+      <Navbar></Navbar>
+      <Home></Home>
+      <About></About>
+      {/*<Qualification></Qualification>*/}
+      <Portfolio></Portfolio>
+      <Contact></Contact>
+      <Footer></Footer>
     </>
   );
 }

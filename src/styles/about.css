@@ -78,9 +78,10 @@ header h2 {
 }
 .about .about-cards .card-item:hover .icon {
   scale: 1.5;
+  transform: rotate(360deg);
   padding: 0.5rem;
   color: var(--darkgray);
-  transition: all 0.1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .about .about-cards .card-item span,
 .icon {

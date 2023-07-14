@@ -10,6 +10,7 @@ body {
   --darkgray: #424242;
   --lightgray: #757575;
 }
+
 /*NAVBAR*/
 .navbar {
   z-index: 1000;

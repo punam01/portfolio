@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/portfolio.css";
 
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { PiLinkThin } from "react-icons/pi";
 
 import BirdImage from "../images/4.jpg";
 import ChintanImage from "../images/1.jpg";
@@ -40,13 +40,15 @@ function Portfolio() {
                 <div className="project-card-item">
                   <img src={ChintanImage} alt="chintanika" />
                 </div>
-                <p className="project-card-title">Chintanika</p>
-                <p className="project-card-link">
-                    Link{" "}
+                <div className="project-card-title">Chintanika
+                <br />
+                <span className="project-card-link">
+                    Github Link{" "}
                     <a href="https://github.com/punam01/Chintanika-Web">
-                      <FaExternalLinkAlt />
+                      <PiLinkThin className="link-icon"/>
                     </a>
-                </p>
+                </span>
+                </div>                
               </div>
             </li>
             <li>
@@ -54,16 +56,16 @@ function Portfolio() {
                 <div className="project-card-item">
                   <img src={HCCImage} alt="hcc" />
                 </div>
-                <p className="project-card-title">
+                <div className="project-card-title">
                   NITK Health Care Center
                   <br />
                   <span className="project-card-link">
-                    Link{" "}
+                    Github Link{" "}
                     <a href="https://github.com/punam01/HCC-NITK">
-                      <FaExternalLinkAlt />
+                      <PiLinkThin className="link-icon"/>
                     </a>
                   </span>
-                </p>
+                </div>
               </div>
             </li>
             <li>
@@ -71,16 +73,16 @@ function Portfolio() {
                 <div className="project-card-item">
                   <img src={WeatherImage} alt="weather" />
                 </div>
-                <p className="project-card-title">
+                <div className="project-card-title">
                   Microsoft-Github-Copilot
                   <br />
                   <span className="project-card-link">
-                    Link{" "}
+                    Github Link{" "}
                     <a href="https://github.com/punam01/Microsoft-Github-Copilot">
-                      <FaExternalLinkAlt />
+                      <PiLinkThin className="link-icon"/>
                     </a>
                   </span>
-                </p>
+                </div>
               </div>
             </li>
             <li>
@@ -88,16 +90,16 @@ function Portfolio() {
                 <div className="project-card-item">
                   <img src={BirdImage} alt="fly-birdie" />
                 </div>
-                <p className="project-card-title">
+                <div className="project-card-title">
                   Fly-Birdie
                   <br />
                   <span className="project-card-link">
-                    Link{" "}
+                    Github Link{" "}
                     <a href="https://github.com/punam01/Fly-Birdie">
-                      <FaExternalLinkAlt />
+                      <PiLinkThin className="link-icon"/>
                     </a>
                   </span>
-                </p>
+                </div>
               </div>
             </li>
           </ul>
@@ -109,16 +111,16 @@ function Portfolio() {
                 <div className="project-card-item">
                   <img src={ChintanImage} alt="chintanika" />
                 </div>
-                <p className="project-card-title">
+                <div className="project-card-title">
                   Chintanika
                   <br />
                   <span className="project-card-link">
-                    Link{" "}
+                    Github Link{" "}
                     <a href="https://github.com/punam01/Chintanika-Web">
-                      <FaExternalLinkAlt />
+                      <PiLinkThin className="link-icon" />
                     </a>
                   </span>
-                </p>
+                </div>
               </div>
             </li>
 
@@ -127,16 +129,16 @@ function Portfolio() {
                 <div className="project-card-item">
                   <img src={HCCImage} alt="hcc" />
                 </div>
-                <p className="project-card-title">
+                <div className="project-card-title">
                   NITK Health Care Center
                   <br />
                   <span className="project-card-link">
-                    Link{" "}
+                    Github Link{" "}
                     <a href="https://github.com/punam01/HCC-NITK">
-                      <FaExternalLinkAlt />
+                      <PiLinkThin className="link-icon"/>
                     </a>
                   </span>
-                </p>
+                </div>
               </div>
             </li>
           </ul>
@@ -149,16 +151,16 @@ function Portfolio() {
                 <div className="project-card-item">
                   <img src={WeatherImage} alt="weather" />
                 </div>
-                <p className="project-card-title">
+                <div className="project-card-title">
                   Microsoft-Github-Copilot
                   <br />
                   <span className="project-card-link">
-                    Link{" "}
+                    Github Link{" "}
                     <a href="https://github.com/punam01/Microsoft-Github-Copilot">
-                      <FaExternalLinkAlt />
+                      <PiLinkThin className="link-icon"/>
                     </a>
                   </span>
-                </p>
+                </div>
               </div>
             </li>
           </ul>
@@ -171,82 +173,20 @@ function Portfolio() {
                 <div className="project-card-item">
                   <img src={BirdImage} alt="fly-birdie" />
                 </div>
-                <p className="project-card-title">
+                <div className="project-card-title">
                   Fly-Birdie
                   <br />
                   <span className="project-card-link">
-                    Link{" "}
+                    Github Link{" "}
                     <a href="https://github.com/punam01/Fly-Birdie">
-                      <FaExternalLinkAlt />
+                      <PiLinkThin className="link-icon"/>
                     </a>
                   </span>
-                </p>
+                </div>
               </div>
             </li>
           </ul>
         </div>
-        {/*<div className="project-container">
-          <div className="project-card">
-            <div className="project-card-item">
-              <img src={ChintanImage} alt="chintanika" />
-            </div>
-            <p className="project-card-title">
-              Chintanika
-              <br />
-              <span className="project-card-link">
-                Link{" "}
-                <a href="https://github.com/punam01/Chintanika-Web">
-                  <FaExternalLinkAlt />
-                </a>
-              </span>
-            </p>
-          </div>
-          <div className="project-card">
-            <div className="project-card-item">
-              <img src={HCCImage} alt="hcc" />
-            </div>
-            <p className="project-card-title">
-              NITK Health Care Center
-              <br />
-              <span className="project-card-link">
-                Link{" "}
-                <a href="https://github.com/punam01/HCC-NITK">
-                  <FaExternalLinkAlt />
-                </a>
-              </span>
-            </p>
-          </div>
-          <div className="project-card">
-            <div className="project-card-item">
-              <img src={WeatherImage} alt="weather" />
-            </div>
-            <p className="project-card-title">
-              Microsoft-Github-Copilot
-              <br />
-              <span className="project-card-link">
-                Link{" "}
-                <a href="https://github.com/punam01/Microsoft-Github-Copilot">
-                  <FaExternalLinkAlt />
-                </a>
-              </span>
-            </p>
-          </div>
-          <div className="project-card">
-            <div className="project-card-item">
-              <img src={BirdImage} alt="fly-birdie" />
-            </div>
-            <p className="project-card-title">
-              Fly-Birdie
-              <br />
-              <span className="project-card-link">
-                Link{" "}
-                <a href="https://github.com/punam01/Fly-Birdie">
-                  <FaExternalLinkAlt />
-                </a>
-              </span>
-            </p>
-          </div>
-  </div>*/}
       </section>
     </>
   );
