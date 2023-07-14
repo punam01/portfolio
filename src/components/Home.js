@@ -6,8 +6,8 @@ import TypeWriter from "./TypeWriter";
 function Home() {
   return (
     <>
-      <section className="home-section">
-        <div className="home-container" id="home">
+      <section className="home-section" id="home">
+        <div className="home-container" >
           <div className="social">
             <a href="https://www.linkedin.com/in/punam-kumavat">
               <FaLinkedin className="social-item" />

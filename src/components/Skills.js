@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/skills.css";
-
+import { FaArrowUp } from "react-icons/fa";
 function Skills() {
   return (
     <>
@@ -78,6 +78,14 @@ function Skills() {
           </div>
         </div>
       </section>
+      <a href="#home" className="scroll-top" onClick={()=>{
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }}>
+        <FaArrowUp/>
+      </a>
     </>
   );
 }

@@ -105,6 +105,7 @@ hr {
   border-radius: 50px;
   /*border-radius: 30% 70% 70% 30% / 53% 31% 69% 47%;*/
 }
+
 /*for smaller screen place container in center and ind=side that place image first then intro and then social*/
 @media screen and (max-width: 768px) {
   .home-section {

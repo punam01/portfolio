@@ -6,7 +6,7 @@ function Navbar() {
     const section = document.getElementById(id);
     if (section) {
       window.scrollTo({
-        top: section.offsetTop - 50,
+        top: section.offsetTop-100,
         behavior: "smooth",
       });
     }
