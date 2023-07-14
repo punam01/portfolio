@@ -40,15 +40,12 @@ function Portfolio() {
                 <div className="project-card-item">
                   <img src={ChintanImage} alt="chintanika" />
                 </div>
-                <p className="project-card-title">
-                  Chintanika
-                  <br />
-                  <span className="project-card-link">
+                <p className="project-card-title">Chintanika</p>
+                <p className="project-card-link">
                     Link{" "}
                     <a href="https://github.com/punam01/Chintanika-Web">
                       <FaExternalLinkAlt />
                     </a>
-                  </span>
                 </p>
               </div>
             </li>

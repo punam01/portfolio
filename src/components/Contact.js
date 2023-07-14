@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/contact.css";
-import { BsLinkedin, BsGithub} from "react-icons/bs";
-import { AiOutlineMail } from "react-icons/ai";
+import { PiGithubLogoLight,PiLinkedinLogoLight,PiChatCenteredDotsLight } from "react-icons/pi";
 function Contact() {
   const handleChatNow = () => {
     window.location.href = "https://www.linkedin.com/in/punam-kumavat";
@@ -23,15 +22,15 @@ function Contact() {
       <section className="contact-section">
         <div className="contact-container">
           <div className="contact-item">
-            <BsLinkedin className="contact-icon"/>
+            <PiLinkedinLogoLight className="contact-icon"/>
             <button className="contact-button" onClick={()=>handleChatNow()}>Chat Now</button>
           </div>
           <div className="contact-item">
-            <AiOutlineMail className="contact-icon"/>
+            <PiChatCenteredDotsLight className="contact-icon"/>
             <button className="contact-button" onClick={()=>handleEmail()}>Email</button>
           </div>
           <div className="contact-item">
-            <BsGithub className="contact-icon"/>
+            <PiGithubLogoLight className="contact-icon"/>
           <button className="contact-button" onClick={()=>handleGithub()}>Github</button>
           </div>
         </div>
