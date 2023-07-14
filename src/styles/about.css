@@ -175,13 +175,14 @@ header h2 {
     width:100%;
     height: 30%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin-top: 0px;
   }
   .about .about-cards .card-item {
-    width: 30%;
-    height: 7rem;
+    width: 70%;
+    height: 8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
