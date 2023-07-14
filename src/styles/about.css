@@ -1,3 +1,7 @@
+
+body{
+  background-color: #FAFAFA;
+}
 header h2 {
   display: flex;
   align-self: center;
@@ -5,21 +9,10 @@ header h2 {
   padding: 0px;
   color: var(--darkgray);
   font-family: "Poppins", sans-serif;
+  font-size: 25px;
   font-weight: 900;
   margin-bottom: 0px;
   padding-top:10px;
-}
-.sub-head {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  padding: 0px;
-  color: var(--lightgray);
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  margin-top: 0px;
-  margin-bottom: 4rem;
 }
 .about-section {
   height: 70vh;
@@ -65,13 +58,14 @@ header h2 {
   margin-top: 0px;
 }
 .about .about-cards .card-item {
+  background-color: white;
   width: 30%;
   height: 100%;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
   padding: 0.5px;
@@ -83,8 +77,9 @@ header h2 {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 .about .about-cards .card-item:hover .icon {
-  scale: 2;
+  scale: 1.5;
   padding: 0.5rem;
+  color: var(--darkgray);
   transition: all 0.1s ease-in-out;
 }
 .about .about-cards .card-item span,
@@ -127,6 +122,18 @@ header h2 {
   cursor: pointer;
   border: none;
   border-radius: 20px;
+}
+.about button:hover {
+  background-color: var(--white);
+  color: var(--darkgray);
+  border: 1px solid var(--darkgray);
+  transition: all 0.5s ease-in-out;
+}
+/*animate icon*/
+.about button:hover .social-item {
+  transform: rotate(360deg);
+  color:var(--darkgray);
+  transition: all 0.5s ease-in-out;
 }
 /*for smaller screen*/
 @media screen and (max-width: 768px) {
@@ -179,5 +186,6 @@ header h2 {
     align-items: center;
     justify-content: center;
     padding: 0.5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
   }
 }

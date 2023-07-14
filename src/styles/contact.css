@@ -5,6 +5,7 @@
   padding: 0px;
   color: var(--darkgray);
   font-family: "Poppins", sans-serif;
+  font-size: 25px;
   font-weight: 900;
   margin-bottom: 0px;
 }
@@ -15,58 +16,82 @@
   padding: 0px;
   color: var(--lightgray);
   font-family: "Poppins", sans-serif;
-  font-size: 10px;
-  font-weight: 200;
+  font-size: 15px;
   margin-top: 0px;
   margin-bottom: 4rem;
 }
 .contact-container {
-  max-width: 70%;
+  max-width: 700px;
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
+  padding : 1rem;
+  margin-bottom :3rem;
 }
 .contact-section {
   height: 100%;
+  width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .contact-item {
   display: flex;
-  width: 40%;
-  align-items: center;
-  justify-content: center;
-  border-bottom: 2rem;
-}
-.contact-icon {
-  width: 80px;
-  height: 80px;
-  display: flex;
-  color: var(--darkgray);
-  font-size: 1.5rem;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  border-radius: 50%;
-}
-.contact-details {
-  display: flex;
-  width: 100px;
-  height: 50px;
+  width:30%;
+  margin-top: 0px;
   flex-direction: column;
-  margin-left: 1rem;
-  padding: 0;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
 }
-.contact-details span {
+.contact-icon{
+  width: 30px;
+  height: 30px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color:var(--darkgray);
+}
+.contact-button{
+  position: relative;
+  height: 50px;
+  min-width:90px;
+  background-color: var(--darkgray);
+  color: var(--white);
   font-family: "Poppins", sans-serif;
+  font-weight: 500;
   font-size: 15px;
-  border-bottom: 0px;
-  margin-bottom: 0px;
-  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+}
+.contact-button:hover{
+  background-color: var(--white);
   color: var(--darkgray);
+  border: 1px solid var(--darkgray);
+}
+p{
+  color: var(--darkgray);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-item {
+    width: 100%;
+    margin-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }

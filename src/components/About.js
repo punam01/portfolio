@@ -15,9 +15,6 @@ function About() {
       <p className="sub-head">- My Introduction -</p>
       <section className="about-section">
         <div className="about-container">
-          {/*<div className="profile1">
-            <img src={profileImage} alt="profile1" />
-          </div>*/}
           <div className="about">
             <div className="about-cards">
               <div className="card-item">

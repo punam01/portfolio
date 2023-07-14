@@ -2,6 +2,7 @@ body {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  background-color: #fafafa;
 }
 :root {
   --gray: #757575;
@@ -11,12 +12,13 @@ body {
 }
 /*NAVBAR*/
 .navbar {
+  z-index: 1000;
   display: flex;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #fafafa;
   justify-content: space-around;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -54,6 +56,10 @@ body {
 /*NAVBAR END*/
 
 @media screen and (max-width: 768px) {
+  .navbar{
+    z-index: 1000;
+    background-color: #fafafa;
+  }
   nav {
     flex-direction: column;
     align-items: center;

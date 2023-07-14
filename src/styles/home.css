@@ -76,6 +76,20 @@ hr {
   cursor: pointer;
   border: none;
   border-radius: 20px;
+
+}
+/*on btn hover change the background color with animation and also enimate icon*/
+.intro button:hover {
+  background-color: var(--white);
+  color: var(--darkgray);
+  border: 1px solid var(--darkgray);
+  transition: all 0.5s ease-in-out;
+}
+/*animate icon*/
+.intro button:hover .social-item {
+  transform: rotate(360deg);
+  color: var(--darkgray);
+  transition: all 0.5s ease-in-out;
 }
 .profile {
   display: flex;

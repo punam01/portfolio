@@ -1,30 +1,32 @@
 footer {
-  border-top: 1px solid var(--darkgray);
+  background-color: white;
+  border-top: 0.5px solid var(--lightgray);
   height: 100%;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
-
+  font-size: 12px;
   color: var(--darkgray);
   font-weight: 500;
+  margin-bottom: 3rem;
 }
-.f-left {
-  width: 50%;
-  padding: 2rem;
+.f-center{
+  width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
 }
-.f-right {
-  width: 50%;
-  padding: 2rem;
+.me{
+  width:200px;
+  height:150px;
+  margin-bottom: 2rem;
+}
+img {
+  width: 100%;
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  object-fit: cover;
 }
