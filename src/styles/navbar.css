@@ -29,6 +29,7 @@ body {
   margin-right: 10px;
   margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
+  cursor: pointer;
 }
 .navbar ul {
   display: flex;
@@ -37,6 +38,7 @@ body {
 .navbar ul li {
   list-style-type: none;
   margin-right: 2rem;
+  cursor: pointer;
 }
 .navbar ul .list-item {
   text-decoration: none;
