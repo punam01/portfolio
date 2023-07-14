@@ -22,13 +22,13 @@ function Navbar() {
             </div>
           </li>
           <li>
-            <div className="list-item" onClick={() => scrollToSection("about")}>
-              About
+            <div className="list-item" onClick={() => scrollToSection("skills")}>
+              Skills
             </div>
           </li>
           <li>
-            <div className="list-item" onClick={() => scrollToSection("skills")}>
-              Skills
+            <div className="list-item" onClick={() => scrollToSection("about")}>
+              About
             </div>
           </li>
           <li>
