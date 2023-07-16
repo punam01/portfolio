@@ -71,6 +71,7 @@
   color: var(--darkgray);
   border: 1px solid var(--darkgray);
 }
+
 .contact-icon:hover {
   transform: rotate(360deg);
   color: var(--darkgray);
