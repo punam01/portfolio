@@ -7,6 +7,7 @@ import BirdImage from "../images/4.jpg";
 import ChintanImage from "../images/1.jpg";
 import WeatherImage from "../images/2.jpg";
 import HCCImage from "../images/3.jpg";
+import TxtToSpeech from "../images/5.JPG";
 import Figma1 from "../images/figma1.JPG";
 import Figma2 from "../images/figma2.JPG";
 
@@ -192,7 +193,6 @@ function Portfolio() {
                 </div>
               </div>
             </li>
-
             <li>
               <div className="project-card">
                 <div className="project-card-item">
@@ -204,6 +204,23 @@ function Portfolio() {
                   <span className="project-card-link">
                     Github Link{" "}
                     <a href="https://github.com/punam01/HCC-NITK">
+                      <PiLinkThin className="link-icon" />
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="project-card">
+                <div className="project-card-item">
+                  <img src={TxtToSpeech} alt="texttospeech" />
+                </div>
+                <div className="project-card-title">
+                  Text-to-Speech
+                  <br />
+                  <span className="project-card-link">
+                    Github Link{" "}
+                    <a href="https://github.com/punam01/Text-to-Speech">
                       <PiLinkThin className="link-icon" />
                     </a>
                   </span>
