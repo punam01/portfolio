@@ -25,8 +25,9 @@
   transition: all 1s ease-in-out;
 }
 .link-icon {
-  font-size: 17px;
-  color: var(--darkgray);
+  font-size: 10px;
+  font-weight: 100;
+  color: var(--lightgray);
 }
 .link-icon:hover {
   transform: translateX(5px);

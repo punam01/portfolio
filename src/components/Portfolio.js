@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/portfolio.css";
 
-import { PiLinkThin } from "react-icons/pi";
+import { FaArrowRight } from "react-icons/fa";
 
 import BirdImage from "../images/4.jpg";
 import ChintanImage from "../images/1.jpg";
@@ -75,7 +75,7 @@ function Portfolio() {
                   <span className="project-card-link">
                     Github Link{" "}
                     <a href="https://github.com/punam01/Chintanika-Web">
-                      <PiLinkThin className="link-icon" />
+                      <FaArrowRight className="link-icon" />
                     </a>
                   </span>
                 </div>
@@ -92,7 +92,7 @@ function Portfolio() {
                   <span className="project-card-link">
                     Github Link{" "}
                     <a href="https://github.com/punam01/HCC-NITK">
-                      <PiLinkThin className="link-icon" />
+                      <FaArrowRight className="link-icon" />
                     </a>
                   </span>
                 </div>
@@ -109,7 +109,7 @@ function Portfolio() {
                   <span className="project-card-link">
                     Github Link{" "}
                     <a href="https://github.com/punam01/Microsoft-Github-Copilot">
-                      <PiLinkThin className="link-icon" />
+                      <FaArrowRight className="link-icon" />
                     </a>
                   </span>
                 </div>
@@ -126,7 +126,7 @@ function Portfolio() {
                   <span className="project-card-link">
                     Github Link{" "}
                     <a href="https://github.com/punam01/Fly-Birdie">
-                      <PiLinkThin className="link-icon" />
+                      <FaArrowRight className="link-icon" />
                     </a>
                   </span>
                 </div>
@@ -143,7 +143,7 @@ function Portfolio() {
                   <span className="project-card-link">
                     Figma Link{" "}
                     <a href="https://www.figma.com/proto/PnKTVWfPZszZWR4YRseKMn/Event-Booking?node-id=10-153&starting-point-node-id=10%3A153&mode=design&t=c6YgDdJIlOACqZHi-1">
-                      <PiLinkThin className="link-icon" />
+                      <FaArrowRight className="link-icon" />
                     </a>
                   </span>
                 </div>
@@ -160,7 +160,7 @@ function Portfolio() {
                   <span className="project-card-link">
                     Figma Link{" "}
                     <a href="https://www.figma.com/proto/zHeDAFIoZ3ZfSTHVnkyHdx/Tic-Tac-Toe?type=design&t=2ibXjR3EfuKaBYHc-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=25%3A141&node-id=25-141&mode=design">
-                      <PiLinkThin className="link-icon" />
+                      <FaArrowRight className="link-icon" />
                     </a>
                   </span>
                 </div>
@@ -187,7 +187,7 @@ function Portfolio() {
                   <span className="project-card-link">
                     Github Link{" "}
                     <a href="https://github.com/punam01/Chintanika-Web">
-                      <PiLinkThin className="link-icon" />
+                      <FaArrowRight className="link-icon" />
                     </a>
                   </span>
                 </div>
@@ -204,7 +204,7 @@ function Portfolio() {
                   <span className="project-card-link">
                     Github Link{" "}
                     <a href="https://github.com/punam01/HCC-NITK">
-                      <PiLinkThin className="link-icon" />
+                      <FaArrowRight className="link-icon" />
                     </a>
                   </span>
                 </div>
@@ -221,7 +221,7 @@ function Portfolio() {
                   <span className="project-card-link">
                     Github Link{" "}
                     <a href="https://github.com/punam01/Text-to-Speech">
-                      <PiLinkThin className="link-icon" />
+                      <FaArrowRight className="link-icon" />
                     </a>
                   </span>
                 </div>
@@ -247,7 +247,7 @@ function Portfolio() {
                   <span className="project-card-link">
                     Github Link{" "}
                     <a href="https://github.com/punam01/Microsoft-Github-Copilot">
-                      <PiLinkThin className="link-icon" />
+                      <FaArrowRight className="link-icon" />
                     </a>
                   </span>
                 </div>
@@ -273,7 +273,7 @@ function Portfolio() {
                   <span className="project-card-link">
                     Github Link{" "}
                     <a href="https://github.com/punam01/Fly-Birdie">
-                      <PiLinkThin className="link-icon" />
+                      <FaArrowRight className="link-icon" />
                     </a>
                   </span>
                 </div>
@@ -299,7 +299,7 @@ function Portfolio() {
                   <span className="project-card-link">
                     Figma Link{" "}
                     <a href="https://www.figma.com/proto/PnKTVWfPZszZWR4YRseKMn/Event-Booking?node-id=10-153&starting-point-node-id=10%3A153&mode=design&t=c6YgDdJIlOACqZHi-1">
-                      <PiLinkThin className="link-icon" />
+                      <FaArrowRight className="link-icon" />
                     </a>
                   </span>
                 </div>
@@ -316,7 +316,7 @@ function Portfolio() {
                   <span className="project-card-link">
                     Figma Link{" "}
                     <a href="https://www.figma.com/proto/zHeDAFIoZ3ZfSTHVnkyHdx/Tic-Tac-Toe?type=design&t=2ibXjR3EfuKaBYHc-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=25%3A141&node-id=25-141&mode=design">
-                      <PiLinkThin className="link-icon" />
+                      <FaArrowRight className="link-icon" />
                     </a>
                   </span>
                 </div>

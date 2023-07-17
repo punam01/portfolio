@@ -5,6 +5,8 @@ import {
   PiLinkedinLogoLight,
   PiChatCenteredDotsLight,
 } from "react-icons/pi";
+import { FaPaperPlane } from "react-icons/fa";
+
 function Contact() {
   const handleChatNow = () => {
     window.location.href = "https://www.linkedin.com/in/punam-kumavat";
@@ -26,22 +28,23 @@ function Contact() {
       <section className="contact-section">
         <div className="contact-container">
           <div className="contact-item">
-            <PiLinkedinLogoLight className="contact-icon" />
-            <button className="contact-button" onClick={() => handleChatNow()}>
-              Chat Now
+            <form className="contact-form"> 
+              <div className="contact-form-div">
+                <label className="contact-form-tag">Name</label>
+                <input type="text" name="name" placeholder="Insert your name" className="contact-form-input" />
+              </div>
+              <div className="contact-form-div">
+                <label className="contact-form-tag">Mail</label>
+                <input type="email" name="email" placeholder="Insert your email" className="contact-form-input" />
+              </div>
+              <div className="contact-form-div">
+                <label className="contact-form-tag">Message</label>
+                <textarea name="message" placeholder="Insert your message" cols="30" rows="10" className="contact-form-area"></textarea>
+              </div>
+              <button>
+              Say Hello <FaPaperPlane className="social-item" />
             </button>
-          </div>
-          <div className="contact-item">
-            <PiChatCenteredDotsLight className="contact-icon" />
-            <button className="contact-button" onClick={() => handleEmail()}>
-              Email
-            </button>
-          </div>
-          <div className="contact-item">
-            <PiGithubLogoLight className="contact-icon" />
-            <button className="contact-button" onClick={() => handleGithub()}>
-              Github
-            </button>
+            </form>
           </div>
         </div>
       </section>
