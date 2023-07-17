@@ -5,6 +5,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  animation: transitionIn 0.8s ease-in-out;
 }
 .home-container {
   max-width: 700px;
@@ -28,9 +30,21 @@
   margin-bottom: 2rem;
   font-size: 1.2rem;
   color: var(--darkgray);
-  cursor: pointer;
+  cursor: pointer;  
 }
-.social-l .social-item:hover {
+.social-l .social-item:hover.linkedIn{
+  /*color transition*/
+  color: #0A66C2;
+  transition: all 0.5s ease-in-out;
+}
+.social-l .social-item:hover.github{
+  /*color transition*/
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+.social-l .social-item:hover.gmail{
+  /*color transition*/
+  color: #d44638;
   transition: all 0.5s ease-in-out;
 }
 .intro {
@@ -48,7 +62,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   color: var(--darkgray);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;  
 }
 .intro .typed {
   display: flex;
@@ -98,17 +112,63 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 50%;
   width: 30%;
+  overflow: hidden;
+  border-radius: 10px;
 }
 .profile img {
   width: 100%;
-  height: 50%;
+  height: 100%;
   object-fit: cover;
-  border-radius: 10px;
-  /*border-radius: 30% 70% 70% 30% / 53% 31% 69% 47%;*/
+}
+.profile img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
+
+@keyframes transitionIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes transitionOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+@keyframes transitionLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes transitionRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
 /*for smaller screen place container in center and ind=side that place image first then intro and then social*/
 @media screen and (max-width: 768px) {
   .home-section {

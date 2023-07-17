@@ -4,6 +4,9 @@ body {
   box-sizing: border-box;
   background-color: #fafafa;
 }
+html{
+  scroll-behavior:smooth;
+}
 :root {
   --gray: #757575;
   --white: #ffffff;

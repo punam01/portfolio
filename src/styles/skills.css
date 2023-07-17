@@ -1,9 +1,11 @@
+
 .skills-section {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 4rem;  
+  margin-bottom: 4rem;   
+  animation: transitionIn 0.8s ease-in-out; 
 }
 .skills-container {
   display: flex;
@@ -14,7 +16,6 @@
   justify-content: center;
   margin-top: 3rem;  
 }
-/*make circular li with shadow and inside taht add image*/
 .skills-container ul {
   height: 100%;
   width: 100%;

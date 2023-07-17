@@ -4,19 +4,28 @@ import profileImage from "../images/profile.jpg";
 import { FaEnvelope, FaGithub, FaLinkedin, FaPaperPlane } from "react-icons/fa";
 import TypeWriter from "./TypeWriter";
 function Home() {
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop-100,
+        behavior: "smooth",
+      });
+    }
+  };
   return (
     <>
       <section className="home-section" id="home">
         <div className="home-container" >
           <div className="social-l">
             <a href="https://www.linkedin.com/in/punam-kumavat">
-              <FaLinkedin className="social-item" />
+              <FaLinkedin className="social-item linkedIn" />
             </a>
             <a href="https://github.com/punam01">
-              <FaGithub className="social-item" />
+              <FaGithub className="social-item github" />
             </a>
             <a href="https://mail.google.com/mail">
-              <FaEnvelope className="social-item" />
+              <FaEnvelope className="social-item gmail" />
             </a>
           </div>
           <div className="intro">
@@ -38,7 +47,7 @@ function Home() {
               to venture beyond familiar boundaries and embrace new
               opportunities and challenges."
             </p>
-            <button>
+            <button onClick={()=>scrollToSection('contact')}>
               Say Hello <FaPaperPlane className="social-item" />
             </button>
           </div>
