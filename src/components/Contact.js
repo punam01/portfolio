@@ -3,17 +3,6 @@ import "../styles/contact.css";
 import { FaPaperPlane } from "react-icons/fa";
 
 function Contact() {
-  const handleChatNow = () => {
-    window.location.href = "https://www.linkedin.com/in/punam-kumavat";
-  };
-
-  const handleEmail = () => {
-    window.location.href = "mailto:punamkumavat01@gmail.com";
-  };
-
-  const handleGithub = () => {
-    window.location.href = "https://github.com/punam01";
-  };
   return (
     <>
       <header className="head" id="contact">
