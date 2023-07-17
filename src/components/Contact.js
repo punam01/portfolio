@@ -1,10 +1,5 @@
 import React from "react";
 import "../styles/contact.css";
-import {
-  PiGithubLogoLight,
-  PiLinkedinLogoLight,
-  PiChatCenteredDotsLight,
-} from "react-icons/pi";
 import { FaPaperPlane } from "react-icons/fa";
 
 function Contact() {
@@ -42,7 +37,7 @@ function Contact() {
                 <textarea name="message" placeholder="Insert your message" cols="30" rows="10" className="contact-form-area"></textarea>
               </div>
               <button>
-              Say Hello <FaPaperPlane className="social-item" />
+              Sent Message <FaPaperPlane className="social-item" />
             </button>
             </form>
           </div>
