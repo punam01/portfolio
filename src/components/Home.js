@@ -43,7 +43,7 @@ function Home() {
               />
             </div>
             <p className="desc">
-              "As an undergraduate student from India, I am fueled by enthusiasm
+              "As an postgraduate student from India, I am fueled by enthusiasm
               to venture beyond familiar boundaries and embrace new
               opportunities and challenges."
             </p>
