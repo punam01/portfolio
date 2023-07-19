@@ -25,8 +25,8 @@
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-between;
   padding: 1rem;
   margin-bottom: 3rem;
 }
@@ -40,11 +40,11 @@
 }
 .contact-item {
   display: flex;
-  width: 100%;
+  width: 30%;
   margin-top: 0px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .contact-icon {
   width: 30px;
@@ -86,76 +86,7 @@ p {
   justify-content: center;
   font-size: 15px;
 }
-.contact-form{
-  height: 100%;
-  width:70%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.contact-form-div{
-  height: 100%;
-  width: inherit;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
 
-}
-.contact-form-input, .contact-form-area{
-  width: 100%;
-  height: 20px;
-  border: 1px solid var(--lightgray);
-  border-radius: 10px;
-  padding: 1rem;
-  background-color: var(--white);
-  color: var(--darkgray);
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-}
-.contact-form-area{
-  resize: vertical;
-  min-height: 150px;
-  scroll-margin: 0p 10px;
-  cursor: pointer;
-}
-.contact-form-tag{
-  padding: 0.25rem;
-  z-index: 10;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  color: var(--darkgray);
-}
-button{
-  height: 60px;
-  width: 180px;
-  margin-top: 1rem;
-  padding: 1rem;
-  background-color: var(--darkgray);
-  color: var(--white);
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  cursor: pointer;
-  border: none;
-  border-radius: 20px;
-
-}
-button:hover {
-  background-color: var(--white);
-  color: var(--darkgray);
-  border: 1px solid var(--darkgray);
-  transition: all 0.5s ease-in-out;
-}
-/*animate icon*/
-button:hover .social-item {
-  transform: rotate(360deg);
-  color: var(--darkgray);
-  transition: all 0.5s ease-in-out;
-}
 @media screen and (max-width: 768px) {
   .contact-container {
     flex-direction: column;
