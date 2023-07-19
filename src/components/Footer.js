@@ -14,8 +14,6 @@ function Footer() {
   const handleGithub = () => {
     window.location.href = "https://github.com/punam01";
   };
-
-            {/*src="https://cdn.dribbble.com/users/3873964/screenshots/14523057/media/02a1ca5dc4e5faacfac8e754195b118c.gif"*/}
   return (
     <>
       <footer>
