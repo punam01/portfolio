@@ -18,6 +18,7 @@ function Footer() {
     <>
       <footer>
         <div>
+          <p className="potrait"></p>
           <img
             className="me"
             src={table}

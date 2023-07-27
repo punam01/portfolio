@@ -34,4 +34,14 @@ img {
   font-size: 1.5rem;
   padding: 1rem;
   margin-bottom: 1rem;
+
+}
+.potrait{
+  width: 100%;
+  height: 100%;
+  background-color: pink;
+  background:url("#");
+  color: black;
+  -webkit-background-clip: text;
+  background-clip: text;
 }

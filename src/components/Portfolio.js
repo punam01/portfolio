@@ -10,7 +10,7 @@ import HCCImage from "../images/3.jpg";
 import TxtToSpeech from "../images/5.JPG";
 import Figma1 from "../images/figma1.JPG";
 import Figma2 from "../images/figma2.JPG";
-
+import Readme from "../images/Input2Readme.jpg";
 function Portfolio() {
   const [activeTab, setActiveTab] = useState("all");
 
@@ -92,6 +92,23 @@ function Portfolio() {
                   <span className="project-card-link">
                     Github Link{" "}
                     <a href="https://github.com/punam01/HCC-NITK">
+                      <PiLinkThin className="link-icon" />
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="project-card">
+                <div className="project-card-item">
+                  <img src={Readme} alt="readme" />
+                </div>
+                <div className="project-card-title">
+                  Input2Readme
+                  <br />
+                  <span className="project-card-link">
+                    Github Link{" "}
+                    <a href="https://github.com/punam01/Input2Readme">
                       <PiLinkThin className="link-icon" />
                     </a>
                   </span>
@@ -187,6 +204,23 @@ function Portfolio() {
                   <span className="project-card-link">
                     Github Link{" "}
                     <a href="https://github.com/punam01/Chintanika-Web">
+                      <PiLinkThin className="link-icon" />
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="project-card">
+                <div className="project-card-item">
+                  <img src={Readme} alt="readme" />
+                </div>
+                <div className="project-card-title">
+                  Input2Readme
+                  <br />
+                  <span className="project-card-link">
+                    Github Link{" "}
+                    <a href="https://github.com/punam01/Input2Readme">
                       <PiLinkThin className="link-icon" />
                     </a>
                   </span>
